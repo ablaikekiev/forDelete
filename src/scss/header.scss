@@ -1,0 +1,22 @@
+.header{
+  position: absolute;
+  border-bottom: 1px solid #A1A1A1;
+  width: 100%;
+  &__menu{
+    display: flex;
+    justify-content: flex-end;
+}
+  &__item{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0 20px;
+    cursor: pointer;
+    padding: 40px 0;
+    &:hover{
+      border-bottom: 2px solid white;
+    }
+  }
+}
