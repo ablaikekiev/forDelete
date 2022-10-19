@@ -1,0 +1,46 @@
+.header__flexBox {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: #ffffff;
+}
+.header__flexBox-item {
+    padding: 20px;
+}
+.header__links {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #013A4C;
+    text-decoration: none;
+    margin-right: 48px;
+}
+.header__button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #013A4C;
+    background: #FFD063;
+    border: 1px solid #FFD063;
+    border-radius: 4px;
+    width: 114px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.header__button-login {
+    background: #FFFFFF;
+    border: 1px solid #346170;
+    border-radius: 4px;
+    width: 75px;
+    height: 40px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+@media(max-width: 769px) {
+    .header__flexBox-item {
+        display: none;
+    }
+}
